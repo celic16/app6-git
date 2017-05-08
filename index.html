@@ -1,0 +1,355 @@
+﻿<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+   <title>sexta aplicacion</title>
+   
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="../../../git/app3-git/css/tema-app3.min.css"/>
+  <link rel="stylesheet" href="../../../git/app3-git/css/jquery.mobile.icons-1.4.5.min.css"/> 
+  <link rel="stylesheet" href="../../../git/app3-git/css/jquery.mobile.structure-1.4.5.min.css"/> 
+  <!--grupo JavaScript-->
+  <script src="../../../git/app3-git/js/jquery-1.11.2.min.js"></script>
+  <script src="../../../git/app3-git/js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="../../../git/app3-git/js/acciones.js"></script>
+  <script src="../../../git/app3-git/phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+
+</head>
+
+<body onLoad="MM_preloadImages('../../../git/app3-git/imagenes/MINI-White.jpg','../../../git/app3-git/imagenes/images.jpg','../../../git/app3-git/imagenes/celular6.jpg','../../../git/app3-git/imagenes/celular7.png','imagenes/batalla-puebla.jpg','imagenes/personajes.jpg','imagenes/5-03-1862.jpg','imagenes/batalla-de-puebla.jpg','imagenes/fototeca.jpg','imagenes/victoria.jpg','imagenes/4demayo.jpg')">
+
+   <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+     <h1>BATALLA DE PUEBLA</h1>
+     </div>
+     
+     
+     <div>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/5031862.jpg" alt="5-03-1862" title="5-03-1862" id="wows1_0"/></li>
+		<li><img src="data1/images/5demayo.jpg" alt="5-de-mayo" title="5-de-mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/batalladepuebla.jpg" alt="batalla-de-puebla" title="batalla-de-puebla" id="wows1_2"/></li>
+		<li><img src="data1/images/batallapuebla.jpg" alt="batalla-puebla" title="batalla-puebla" id="wows1_3"/></li>
+		<li><img src="data1/images/granbatalla.jpg" alt="gran-batalla" title="gran-batalla" id="wows1_4"/></li>
+		<li><img src="data1/images/historiadelabatalla.jpg" alt="historia-de-la-batalla" title="historia-de-la-batalla" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/info_batalla.jpg" alt="jquery slider" title="info_batalla" id="wows1_6"/></a></li>
+		<li><img src="data1/images/victoria.jpg" alt="victoria" title="victoria" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5-03-1862"><span><img src="data1/tooltips/5031862.jpg" alt="5-03-1862"/>1</span></a>
+		<a href="#" title="5-de-mayo"><span><img src="data1/tooltips/5demayo.jpg" alt="5-de-mayo"/>2</span></a>
+		<a href="#" title="batalla-de-puebla"><span><img src="data1/tooltips/batalladepuebla.jpg" alt="batalla-de-puebla"/>3</span></a>
+		<a href="#" title="batalla-puebla"><span><img src="data1/tooltips/batallapuebla.jpg" alt="batalla-puebla"/>4</span></a>
+		<a href="#" title="gran-batalla"><span><img src="data1/tooltips/granbatalla.jpg" alt="gran-batalla"/>5</span></a>
+		<a href="#" title="historia-de-la-batalla"><span><img src="data1/tooltips/historiadelabatalla.jpg" alt="historia-de-la-batalla"/>6</span></a>
+		<a href="#" title="info_batalla"><span><img src="data1/tooltips/info_batalla.jpg" alt="info_batalla"/>7</span></a>
+		<a href="#" title="victoria"><span><img src="data1/tooltips/victoria.jpg" alt="victoria"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+       <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>4 de Mayo</h1>
+       <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/4demayo.jpg',1)"><img src="imagenes/batalla_4.jpg" width="670" height="345" id="Image33"></a><br>
+       </div>
+      </div>
+     </div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>5 de Mayo</h1>
+       <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/batalla-puebla.jpg',1)"><img src="imagenes/5-de-mayo.jpg" width="538" height="331" id="Image19"></a><br>
+       </div>
+      </div>
+     </div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Leyenda del 5 de Mayo</h1>
+       <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/personajes.jpg',1)"><img src="imagenes/5 de mayo.jpg" width="531" height="343" id="Image24"></a> </div>
+      </div>
+     </div>
+
+
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>LA BATALLA DE PUEBLA</h2>
+             <p>¿Por qué sucedio?</p>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>4 DE MAYO</h2>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>HEROES DE LA BATALLA</h2>
+             <p>¿Quienes son?</p>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>MUSEO DE LA BATALLA DEL 5 DE MAYO</h2>
+             <p>¿Donde se encuentra?</p>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>CONSECUENCIAS DE LA BATALLA</h2>
+             <p>¿Que problemas tuvieron despues de la guerra?</p>
+           </a>
+        </li>
+       </ul>
+</div>
+      
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+          <img src="imagenes/mdpi.png" width="110" height="109" alt="huy"></div>
+        <div>
+          <h4>Aplicacion seis</h4>
+          <h4>Celic Vaquero Aguilar</h4>
+        </div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Batalla de Puebla</h1>
+        </div>
+        <div>
+       <img src="imagenes/5 de mayo.jpg" width="400" height="236" alt="hi0">
+  </div>
+       <div><img src="imagenes/5-03-1862.jpg" width="403" height="270" alt="T">
+  </div>
+        <div>
+        <img src="imagenes/5-de-mayo.jpg" width="408" height="284" alt="5">
+        </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Motivos de la guerra</h1>
+       <div>
+        <p>n mayo de 1861, el presidente Benito Juárez anunció la suspensión de los pagos de deuda la mexicana. Como consecuencia, los acreedores que eran Francia, Inglaterra y España firmaron la conocida Convención de Londres por la cual se comprometían enviar contingentes militares hacia el territorio mexicano con el fin hacer valer los derechos como acreedores.
+En diciembre del mismo año, llegaron al puerto de Veracruz los primeros militares mientras que en enero de 1862 arribaron las tropas inglesas y francesas. Una vez en el país, los representantes de los tres países acreedores enviaron un ultimátum al gobierno de México exigiéndole el pago de las deudas ya que de lo contrario invadirían el país. Juárez, al ver que la invasión era un riesgo evidente, solicitó negociar para llegar a un acuerdo amistoso al tiempo que derogó el decreto que llevó a los países acreedores a iniciar acciones militares.
+El presidente Juárez viendo la posibilidad de una invasión militar a la Ciudad de México ordenó la fortificación de Puebla al mismo tiempo que creó una nueva unidad militar conocida como Ejército de Oriente. Esta en un principio estuvo bajo las órdenes de José López Uraga pero debido a su mal desempeño el mando recayó en las manos del hasta entonces Ministro de Guerra, Zaragoza. Él tuvo la tarea de organizar las fuerzas, que sumaban unos 10.000 hombres, para repeler el ataque del ejército francés. Los representantes de los países acreedores aceptaron la propuesta de negociación y en febrero de 1862 se reunieron con los ministros Manuel Doblado (Mtro. De Exterior) e Ignacio Zaragoza (Mtro. de Guerra). La reunión se llevó a cabo en la hacienda La Soledad muy próxima a Veracruz. Esta negociación derivó en la firma de los Tratados preliminares de La Soledad mediante los cuales España, Francia e Inglaterra se comprometían a reconocer la independencia del país. En cuanto a la deuda, se aceptó que las negociaciones se realizasen en Orizaba, Córdoba y Tehuacán. En caso de no llegar a un acuerdo, se comenzarían las campañas militares desde las costas.</p>
+        <br>
+       </div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button" id="beep">
+   <h2>Para leer mas sobre el tema da clic aqui</h2>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion seis, CVA</h4>
+        </div>
+</div>
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>4 de Mayo</h1>
+             </div>
+             <div>
+         <img src="imagenes/batalla_4.jpg" width="606" height="307" alt="j"> 
+         </div>
+         <div>
+         <img src="imagenes/4demayo.jpg" width="537" height="310" alt="gh">
+         </div>
+        <div>
+  <img src="imagenes/4mayo.jpg" width="570" height="361" alt="vj"> 
+  </div>
+
+  <div data-role="content" align="center">
+             <div>
+               <h2>Atlixco tiene una larga historia de contribuciones a la construcción de éste país  y este Estado de Puebla.
+
+Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.
+
+Su participación en la causa de la Independencia, -donde destacan José Luis Rodríguez de Alconedo y Francisco Pablo Vázquez-  le otorgaron, de parte del General Nicolás Bravo en 1843 la denominación de “Noble y Leal Ciudad de Atlixco”.
+
+El esfuerzo de construcción de nuestro país, pasa por una serie de invasiones. Por ello habrá que recordar también, la defensa que hizo Atlixco en contra de los españoles que intentaban reconquistar a México en 1825; y la intervención que tuvo en 1914 durante la invasión estadounidense en el gobierno de Victoriano Huerta.</h2>
+             
+</div>
+           </div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862" data-role="button" id="beep">
+   <h2>Link para seguir leyendo</h2>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+             <h4>Aplicacion seis, CVA</h4>
+           </div>
+           </div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+            <h1>Heroes de la batalla de Puebla</h1>
+            </div>
+             <div>
+           <img src="imagenes/personajes.jpg" width="259" height="194" alt="bh"> </div>
+           <div>
+    <img src="imagenes/info_batalla.jpg" width="398" height="249" alt="f"> 
+    </div>
+    
+           <div data-role="content" align="center">
+             <div>
+               <h2>General Ignacio Zaragoza<br>
+ 
+Famoso militar mexicano quen cuando las fuerzas francesas de Napoleón III invadieron México para imponer como emperador a Maximiliano de Habsburgo, con el rango de general y al mando del Ejército de Oriente, las enfrentó en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862, siendo obligado a retroceder.<br>
+<br>
+General Porfirio Díaz<br>
+Al producirse la Intervención Norteamericana en México, en el seminario de Oaxaca surgió la inquietud de luchar contra los invasores, idea que fue respaldada y alentada por los sacerdotes y maestros.<br>
+<br>
+Felipe Berriazábal<br>
+Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los estados de México, Michoacán y San Luis Potosí y realizó importantes proyectos de ingeniería. Como militar llegó a General y fue ministro de Guerra y Marina.<br>
+<br>
+Miguel Negrete<br>
+Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México...</h2>
+             </div>
+           </div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://mayo5.weebly.com/personajes-historicos.html" data-role="button" id="beep">
+   <h2>Para seguir leyendo mas sobre el tema da clic aqui</h2>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion seis, CVA</h4>
+        </div>
+        </div>
+        
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+           <h1>Museo</h1>
+</div>
+             <div>
+           <img src="imagenes/fototeca.jpg" width="368" height="230" alt="ho"> </div>
+           <div><img src="imagenes/museo.jpg" width="368" height="192" alt="ef"></div>
+           <div><img src="imagenes/mu.jpg" width="420" height="232" alt="ng"></div>
+  
+           <div data-role="content" align="center">
+             <div>
+               <h2>Una de las más grandes batallas que ha librado el país tuvo lugar en la ciudad de Puebla, la batalla del 5 de mayo de 1862. En la zona de los fuertes, en el mismo escenario del pasado, se ubica el museo interactivo.
+El recorrido por el museo utiliza la tecnología más puntera para narrar las acciones militares y la biografía de héroes nacionales como Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos interactivos descargables en dispositivos ofrecen una experiencia única al visitante.</h2>
+             </div>
+           </div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.google.com.mx/maps/place/Museo+Interactivo+De+La+Batalla+Del+5+De+Mayo/@19.0548356,-98.1804485,15z/data=!4m5!3m4!1s0x0:0xb7b3e85d250a696d!8m2!3d19.0548356!4d-98.1804485" data-role="button" id="beep">
+   <h2>Para localizar el museo da clic aqui</h2>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+           <div data-role="footer" data-theme="a" data-position="fixed">
+             <h4>Aplicacion seis, CVA</h4>
+           </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Consecuencias</h1>
+          </div>
+             <div>
+          <img src="imagenes/victoria.jpg" width="343" height="234" alt="ju"> </div>
+          <div>
+          <img src="imagenes/batalla-puebla.jpg" width="343" height="230" alt="g"> </div>
+           <div>
+  <img src="imagenes/historia-de-la-batalla.jpg" width="344" height="204" alt="yu"> 
+  </div>
+             
+           <div data-role="content" align="center">
+             <div>
+               <h2>Mientras se libraba la batalla, en el Palacio Nacional y en la Ciudad de México en general se vivía un ambiente de tensa espera. Lo último que se sabía de Puebla era el telegrama enviado por Zaragoza hacia las 12:30 del día, en el que avisaba que el fuego de artillería de ambos lados había iniciado. Luego, silencio. Ante la incertidumbre, el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos y algunos centenares de milicianos pobremente armados. Si las tropas guanajuatenses se perdían, la capital quedaría desprotegida.
+
+A las 4:15 de la tarde finalmente se recibieron noticias:
+
+... Sobre el campo a las dos y media.— Dos horas y media nos hemos batido. El enemigo ha arrojado multitud de granadas.— Sus columnas sobre el cerro de Loreto y Guadalupe han sido rechazadas y seguramente atacó con cuatro mil hombres. Todo su impulso fue sobre el cerro.— En este momento se retiran las columnas y nuestras fuerzas avanzan sobre ellas. Comienza un fuerte aguacero.— I. Zaragoza. Zaragoza envió más tarde otro telegrama en el que dijo que los franceses habían iniciado la retirada hacia Amozoc, pero sin mencionar el resultado final de la batalla. Finalmente, a las 5:49 de la tarde se recibió otro parte, dirigido al ministro de Guerra, que causó júbilo (y un gran alivio) en Palacio Nacional:
+
+... Las armas del Supremo Gobierno se han cubierto de gloria: el enemigo ha hecho esfuerzos supremos por apoderarse del Cerro de Guadalupe, que atacó por el oriente de izquierda y derecha durante tres horas: fue rechazado tres veces en completa dispersión y en estos momentos está formado en batalla, fuerte de más de 4,000 hombres, frente al cerro de Guadalupe, fuera de tiro. No lo bato, como desearía, porque el Gobierno sabe (que) no tengo para ello fuerza bastante. Calculo la pérdida del enemigo, que llegó hasta los fosos de Guadalupe en su ataque, en 600 o 700 entre muertos y heridos; 400 habremos tenido nosotros. Sírvase vd. dar cuenta de este parte al C. Presidente.— I. Zaragoza. Dos horas después de haber sido remitido el parte anterior a la Secretaría de Guerra, el presidente de la República recibia el siguiente:
+
+... Señor Presidente.-Estoy muy contento con el comportamiento de mis generales y soldados. Todos se han portado bien.—Los franceses han llevado una lección muy severa; pero en obsequio de la verdad diré: que se han batido como bravos, muriendo una gran parte de ellos en los fosos de las trincheras de Guadalupe. Sea para bien, Sr. Presidente. Deseo que nuestra querida Patria, hoy tan desgraciada, sea feliz y respetada de todas las Naciones..— I. Zaragoza. El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".
+
+El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.  Lo sustituyó en el mando del Ejército de Oriente el general Jesús González Ortega, quien se encargaría de la defensa de la ciudad ya que se esperaba el regreso de los franceses, reagrupados y con refuerzos, lo cual sucedió en marzo del siguiente año. Los historiadores concuerdan en señalar el talento de Zaragoza como organizador y motivador de sus tropas. Antes de la batalla, las arengó diciéndoles que si bien los franceses eran considerados "los primeros soldados del mundo", ellos eran "los primeros hijos de México", lo cual tuvo tal efecto en la moral de sus soldados que su determinación por defender la plaza ante los invasores compensó sus carencias materiales y de disciplina. Además, no temió tomar decisiones arriesgadas, como prescindir de los 2000 efectivos que O'Horan se llevó para batir a Leonardo Márquez, y en el curso de la batalla actuó con serenidad y efectividad. Se le considera héroe nacional y en su honor, tiempo después, Juárez renombró a la ciudad como Heroica Puebla de Zaragoza.
+
+Cabe atribuir parte de la responsabilidad en el resultado de la batalla a Lorencez, por decidir lanzarse en primer lugar contra Loreto y Guadalupe en lugar de ir sobre la ciudad. Esta acción no carece de sentido si se toma en cuenta que el general francés se encontraba confiado en la victoria por lo que había sucedido en las Cumbres, además de que bajo la lógica militar de su tiempo, primero había que atacar al enemigo en sus posiciones más fuertes. En todo caso, ensoberbecido por la superioridad per se de los franceses, no contó con la férrea resistencia mexicana y cometió yerros garrafales: así, por ejemplo, fue famosa su orden de colocar sus cañones en batería a dos kilómetros y medio de las fortificaciones poblanas, lo cual fue calificado por el propio Napoleón III como un disparate12 ya que las balas llegaban a sus blancos, pero sin fuerza. El conde fue repatriado y lo sustituyó Frédéric Forey en el mando de las tropas expedicionarias. Cuando en Francia se supo la derrota del ejército francés, originó dolor, histeria y llanto, más aún cuando llegaron las historias de que los indígenas zacapoaxtlas (que en realidad se trataba del sexto Batallón de Guardia Nacional del Estado de Puebla13 ) habían atacado con machetes, arma desconocida en Europa, y se comían los cadáveres. El resto de Europa, con incredulidad, sorpresa y asombro, comentaban como el ejército francés, invicto desde la Batalla de Waterloo en 1815, había sido derrotado en México, un ejército considerado el mejor del mundo, el vencedor en la conquista de Argelia y de la Indochina francesa (hoy Vietnam), había sido derrotado por un país tropical, utilizando tácticas de guerra poco utilizada en Europa, como era la Guerra de Guerrillas.
+
+La guerra de guerrillas efectivamente fue utilizada en México, pero ya antes se conocía tal táctica en Europa, y más en concreto en España, lugar donde se dio por vez primera este tipo de guerra 400 años antes de Cristo, e incluso contra la invasión de las tropas de Napoleón a principios del siglo XIX, y que por tal motivo en este país se le dio tal nombre, guerra de guerrillas.</h2>
+             </div>
+           </div>
+           <div data-role="footer" data-theme="a" data-position="fixed">
+             <h4>Aplicacion seis, CVA</h4>
+           </div>
+  </div> 
+</body>
+</html>
+
+ 
+                                                       
+                                        
+                                                          
+                
+                     
+   
